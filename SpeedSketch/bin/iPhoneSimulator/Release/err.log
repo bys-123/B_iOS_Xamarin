@@ -1,0 +1,50 @@
+objc[8384]: Class VCWeakObjectHolder is implemented in both /Volumes/Macintosh HD 2/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x11f1ceca8) and /Volumes/Macintosh HD 2/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x11f100cd0). One of the two will be used. Which one is undefined.
+objc[8384]: Class PLBuildVersion is implemented in both /Volumes/Macintosh HD 2/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x11d996cc0) and /Volumes/Macintosh HD 2/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x11d7ad6f0). One of the two will be used. Which one is undefined.
+2018-04-25 17:11:02.989 SpeedSketch[8384:374899] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+2018-04-25 17:11:03.027 SpeedSketch[8384:374899] warning: exception inside UnhandledException handler: The type initializer for 'Microsoft.AppCenter.Crashes.Crashes' threw an exception.
+2018-04-25 17:11:03.036 SpeedSketch[8384:374899] Unhandled managed exception:
+The type initializer for 'Microsoft.AppCenter.Crashes.Crashes' threw an exception. (System.TypeInitializationException)
+(null)
+ --- inner exception ---
+Method 'ObjCRuntime.BlockLiteral.SetupBlockUnsafe' not found. (System.MissingMethodException)
+  at Microsoft.AppCenter.Crashes.Crashes..cctor () [0x0002f] in <170302985d844f29b046022692f58ce1>:0 
+2018-04-25 17:11:03.036 SpeedSketch[8384:374899] critical: Stacktrace:
+
+2018-04-25 17:11:03.037 SpeedSketch[8384:374899] critical: 
+Native stacktrace:
+
+2018-04-25 17:11:03.066 SpeedSketch[8384:374899] critical: 	0   SpeedSketch                         0x00000001069e7be4 mono_handle_native_crash + 244
+2018-04-25 17:11:03.066 SpeedSketch[8384:374899] critical: 	1   libsystem_platform.dylib            0x00000001131f8b3a _sigtramp + 26
+2018-04-25 17:11:03.066 SpeedSketch[8384:374899] critical: 	2   libsystem_pthread.dylib             0x00000001132162c8 _pthread_keys + 9720
+2018-04-25 17:11:03.066 SpeedSketch[8384:374899] critical: 	3   libsystem_c.dylib                   0x0000000112f6788f abort + 127
+2018-04-25 17:11:03.067 SpeedSketch[8384:374899] critical: 	4   SpeedSketch                         0x0000000106b9bb12 xamarin_unhandled_exception_handler + 34
+2018-04-25 17:11:03.067 SpeedSketch[8384:374899] critical: 	5   SpeedSketch                         0x0000000106a51604 mono_invoke_unhandled_exception_hook + 148
+2018-04-25 17:11:03.067 SpeedSketch[8384:374899] critical: 	6   SpeedSketch                         0x00000001069e76cd mono_handle_exception_internal + 4909
+2018-04-25 17:11:03.067 SpeedSketch[8384:374899] critical: 	7   SpeedSketch                         0x00000001069e6398 mono_handle_exception + 24
+2018-04-25 17:11:03.068 SpeedSketch[8384:374899] critical: 	8   SpeedSketch                         0x00000001069668ef mono_amd64_throw_exception + 143
+2018-04-25 17:11:03.068 SpeedSketch[8384:374899] critical: 	9   ???                                 0x0000000127026ae7 0x0 + 4949437159
+2018-04-25 17:11:03.068 SpeedSketch[8384:374899] critical: 	10  SpeedSketch                         0x0000000106b9f27b xamarin_invoke_trampoline + 3067
+2018-04-25 17:11:03.068 SpeedSketch[8384:374899] critical: 	11  SpeedSketch                         0x0000000106ba0e0e xamarin_arch_trampoline + 78
+2018-04-25 17:11:03.068 SpeedSketch[8384:374899] critical: 	12  SpeedSketch                         0x0000000106ba1a76 xamarin_x86_64_common_trampoline + 110
+2018-04-25 17:11:03.069 SpeedSketch[8384:374899] critical: 	13  UIKit                               0x0000000108d4b9b7 -[UIApplication _handleDelegateCallbacksWithOptions:isSuspended:restoreState:] + 299
+2018-04-25 17:11:03.069 SpeedSketch[8384:374899] critical: 	14  UIKit                               0x0000000108d4d29c -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] + 4119
+2018-04-25 17:11:03.069 SpeedSketch[8384:374899] critical: 	15  UIKit                               0x0000000108d535e4 -[UIApplication _runWithMainScene:transitionContext:completion:] + 1709
+2018-04-25 17:11:03.069 SpeedSketch[8384:374899] critical: 	16  UIKit                               0x0000000108d507f3 -[UIApplication workspaceDidEndTransaction:] + 182
+2018-04-25 17:11:03.070 SpeedSketch[8384:374899] critical: 	17  FrontBoardServices                  0x0000000113a5c5f6 __FBSSERIALQUEUE_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+2018-04-25 17:11:03.070 SpeedSketch[8384:374899] critical: 	18  FrontBoardServices                  0x0000000113a5c46d -[FBSSerialQueue _performNext] + 186
+2018-04-25 17:11:03.070 SpeedSketch[8384:374899] critical: 	19  FrontBoardServices                  0x0000000113a5c7f6 -[FBSSerialQueue _performNextFromRunLoopSource] + 45
+2018-04-25 17:11:03.070 SpeedSketch[8384:374899] critical: 	20  CoreFoundation                      0x0000000111981c01 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+2018-04-25 17:11:03.070 SpeedSketch[8384:374899] critical: 	21  CoreFoundation                      0x00000001119670cf __CFRunLoopDoSources0 + 527
+2018-04-25 17:11:03.071 SpeedSketch[8384:374899] critical: 	22  CoreFoundation                      0x00000001119665ff __CFRunLoopRun + 911
+2018-04-25 17:11:03.071 SpeedSketch[8384:374899] critical: 	23  CoreFoundation                      0x0000000111966016 CFRunLoopRunSpecific + 406
+2018-04-25 17:11:03.071 SpeedSketch[8384:374899] critical: 	24  UIKit                               0x0000000108d4f08f -[UIApplication _run] + 468
+2018-04-25 17:11:03.071 SpeedSketch[8384:374899] critical: 	25  UIKit                               0x0000000108d55134 UIApplicationMain + 159
+2018-04-25 17:11:03.071 SpeedSketch[8384:374899] critical: 	26  ???                                 0x00000001270e7a90 0x0 + 4950227600
+2018-04-25 17:11:03.072 SpeedSketch[8384:374899] critical: 	27  ???                                 0x00000001270e78f0 0x0 + 4950227184
+2018-04-25 17:11:03.072 SpeedSketch[8384:374899] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
