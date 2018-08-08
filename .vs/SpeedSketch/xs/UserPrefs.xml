@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{B444174A-D715-45D0-B678-787665EFA7A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedSketch/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="SpeedSketch/AppDelegate.cs" Line="220" Column="18" />
+      <File FileName="SpeedSketch/AppDelegate.cs" Line="55" Column="22" />
       <File FileName="SpeedSketch/Entitlements.plist" />
       <File FileName="SpeedSketch/Info.plist" />
     </Files>
@@ -12,6 +12,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.UITestSpeedSketch PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.SpeedSketch PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.SpeedSketch PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.394d7bed976b93b00ad4d892b0e72d0147c0f8da" automaticSigning="False" />
   <MultiItemStartupConfigurations />
 </Properties>
