@@ -174,7 +174,7 @@ namespace SpeedSketch
             System.Diagnostics.Debug.WriteLine("installId value:" + installId.Result.ToString());
             Distribute.SetEnabledAsync(true);
             Distribute.DontCheckForUpdatesInDebug();
-            AppCenter.Start("29375120-9f06-4f32-bc33-9c7db204b665",
+            AppCenter.Start("80fba1ed-b8c1-474e-a74f-825d024600aa",
                                typeof(Analytics), typeof(Crashes), typeof(Push),typeof(Distribute));
             // Minimal basic setup without a storyboard.
             var localWindow = new UIWindow(UIScreen.MainScreen.Bounds);
