@@ -220,6 +220,8 @@ namespace SpeedSketch
 		{
 			cgView.StrokeCollection = strokeCollection = new StrokeCollection ();
             Crashes.GenerateTestCrash();
+            int i = 0;
+            int m = 1 / i;
 		}
 
 		void StrokeUpdated (StrokeGestureRecognizer strokeGesture)

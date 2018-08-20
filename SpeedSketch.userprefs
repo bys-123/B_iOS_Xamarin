@@ -1,25 +1,17 @@
 ﻿<Properties StartupConfiguration="{B444174A-D715-45D0-B678-787665EFA7A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedSketch/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedSketch/UI/CanvasMainViewController.cs">
     <Files>
+      <File FileName="../../../chmin/ios-react/B_iOS_ReactNative/index.ios.js" Line="90" Column="18" />
       <File FileName="SpeedSketch/Info.plist" />
+      <File FileName="SpeedSketch/AppDelegate.cs" Line="21" Column="9" />
+      <File FileName="SpeedSketch/UI/CanvasMainViewController.cs" Line="29" Column="23" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="SpeedSketch" expanded="True">
-            <Node name="SpeedSketch" expanded="True">
-              <Node name="Info.plist" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SpeedSketch PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4F8CD145-D042-4263-A648-A8F73E601BE7" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.SpeedSketch PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." automaticSigning="False" />
   <MultiItemStartupConfigurations />
 </Properties>
